@@ -1,10 +1,10 @@
 # NeteaseMusic plugin for tmux
-[![GitHub](https://img.shields.io/github/license/pldaily/tmux-NeteaseMusic)](https://opensource.org/licenses/MIT)
+[![GitHub](https://img.shields.io/github/license/PLDaily/tmux-NeteaseMusic)](https://opensource.org/licenses/MIT)
 
 Show a nice menu to manage NeteaseMusic application.
 
-<p align="center">
-  <img src="https://github.com/pldaily/tmux-NeteaseMusic/raw/master/assets/tmux-NeteaseMusic.gif" alt="tmux-NeteaseMusic"  width=600 height=242>
+<p align="left">
+  <img src="https://github.com/PLDaily/tmux-NeteaseMusic/raw/main/assets/tmux-NeteaseMusic.gif" alt="tmux-NeteaseMusic"  width=400 height=530>
 </p>
 
 ## Installation
@@ -15,7 +15,7 @@ Show a nice menu to manage NeteaseMusic application.
 ### With Tmux Plugin Manager
 Add the plugin in `.tmux.conf`:
 ```
-set -g @plugin 'pldaily/tmux-NeteaseMusic'
+set -g @plugin 'PLDaily/tmux-NeteaseMusic'
 ```
 Press `prefix + I` to fetch the plugin and source it. Done.
 
@@ -32,7 +32,9 @@ Press `prefix + :` and type `source-file ~/.tmux.conf`. Done.
 ## Usage
 Press tmux `prefix + m` (for example, `C-b m`) and you will see a nice menu:
 
-![tmux-NeteaseMusic](./assets/NeteaseMusic-menu.png)
+<p align="left">
+  <img src="https://github.com/PLDaily/tmux-NeteaseMusic/raw/main/assets/NeteaseMusic-menu.png" alt="tmux-NeteaseMusic"  width=230 height=220>
+</p>
 
 ```
 * Open NeteaseMusic   (o) - open/launch NeteaseMusic
@@ -42,6 +44,14 @@ Press tmux `prefix + m` (for example, `C-b m`) and you will see a nice menu:
 * Like/Dislike        (l) - toggle play/pause
 * Close menu          (q) - close menu
 ```
+
+## Credits
+Many thanks to authors of [tmux-spotify](https://github.com/xamut/tmux-spotify) and [applescript-player-control](https://github.com/yantze/applescript-player-control) for inspiration!
+
+## FAQ
+Q: Not authorized to send Apple events to System Events ?
+
+A: Goto Settings -> Security & Privacy -> Privacy -> Automation -> Privacy tab and check the System Events checkbox
 
 ## License
 tmux-NeteaseMusic plugin is released under the [MIT License](https://opensource.org/licenses/MIT).
